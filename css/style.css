@@ -8,6 +8,9 @@ a {text-decoration: none; color: #333;}
 body {font-family:'Pretendard', '맑은 고딕', sans-serif;}
 
 .container {width: 1400px; margin: 0 auto; border: 1px solid #000;}
+.btn1{font-size:15px; color:#fff; border-radius:50px; align-items: center; gap:33px; border:1px solid #fff; padding:15px 32px; display: inline-flex;  }
+
+
 
 header {}
 header .topset {display: flex; justify-content: space-between;}
@@ -99,16 +102,35 @@ header nav .gnb li a { flex-grow: 1; text-align: center;padding: 13px;}
 #section03 .content li .textbox{}
 #section03 .content li .textbox strong{font-size:30px; margin-bottom:9px; display: block;}
 #section03 .content li .textbox p{font-size:16px; margin-bottom:27px;}
-#section03 .content li .textbox a{font-size:15px; color:#fff; border-radius:50px; align-items: center; gap:33px; border:1px solid #fff; padding:15px 32px; display: inline-flex;  }
 #section03 .content li figure{position: absolute; top:0; right:53px}
 
 
 /************************섹션4*******************************/
+#section04{background: rgba(138,92,246,0.1);}
+#section04 h2{font-size:30px; color:#3c3c3c; width: 476px; margin:0 auto 54px; text-align:center;}
+#section04 h2 span{font-size:20px; color:#777; font-weight:400; display: block; margin-top:14px;}
 
+#section04 .content{display: grid; gap:32px; grid-template-columns: 383fr 560fr 383fr; grid-template-rows: 205px 205px 205px;}
+#section04 .content li{background: linear-gradient(0deg, #8b5cf6, #b493ff); position:relative; padding: 38px 27px; border-radius: 10px;overflow: hidden;}
+#section04 .content li.card1{grid-row:1/3;} /*첫번째 줄에서 3번쨰 줄까지 합치기*/
+#section04 .content li.card2{grid-column: span 2; /*2/4*/} /*두번째 칸에서 4번째 칸까지 합치기*/
+#section04 .content li.card5{grid-column: span 2; /*2/4*/} /*두번째 칸에서 4번째 칸까지 합치기*/
 
+#section04 .content li a{}
+#section04 .content li a .textbox{color:#fff;}
+#section04 .content li a .textbox h3{font-size:28px; margin-bottom:8px;}
+#section04 .content li a .textbox p{font-size:16px;}
+#section04 .content li a .textbox img{}
 
+#section04 .content li .s4_img1{position: absolute; bottom:39px; left:50%; transform: translateX(-50%);}
+#section04 .content li .s4_img2{position: absolute; right:120px; top:50%; transform: translateY(-50%);}
+#section04 .content li .s4_img3{position: absolute; right:70px;bottom:0;}
+#section04 .content li .s4_img4{position: absolute; right:126px; bottom:0;}
+
+#section04 .content li .num{position:absolute; font-size:126px; color:#6e3ed9; right:-30px;bottom:-40px;}
 
 /***************************푸터*******************************/
 
-footer{}
+footer{background:#222; padding:24px 0}
+footer .container{}
 
